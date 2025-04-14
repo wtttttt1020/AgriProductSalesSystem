@@ -113,7 +113,7 @@ public class AdminController {
 
         //用户登录成功，把凭证放到session
         session.setAttribute("admin",admin);
-        return Result.ok("登陆成功");
+        return Result.ok("登录成功");
 
     }
 
